@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.background-image{
+   left: 0px;
+    height: 140px;
+    width: 1460px;
+    margin-top: 0px;
+}
+.navbar {
+    background-color: rgba(6, 18, 60, 0.952);
+    color: #b71190;
+    padding-top: 5px 0;
+    height: 50px;
+    
+  }
+  
+  .nav-list {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    left: 90px;
+  }
+  
+  .nav-list li {
+    display: inline-block;
+    margin-right: 90px;
+    
+  }
+  
+  .nav-list li a {
+    color: #5ed09b;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+  }
+  
+  .nav-list li a:hover {
+    color: rgb(2, 8, 11);
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #545454;
+    padding: 10px 0;
+    width: 70px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    color: #a52828;
+    padding: 8px 12px;
+    width: 150px;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu li a:hover {
+    padding-left: 10px;   
+    transform-style: preserve-3d;
+  }
+
+  .container{
+    background-color: rgba(0, 199, 129, 0.057);
+    margin-top: 30px;
+  }
+
+.container div p{
+    margin-bottom: 40px;
+}
+
+  li{
+    list-style-type:square;
+
+}
+.container div{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: #42737e;
+    position: relative;
+    padding-left: 510px;
+}
+
+h3{
+    background-color: darkkhaki;
+}
+
+
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    /* border: 2px solid rgb(0, 32, 174); */
+    padding: 20px;
+    background-color: #41357e;
+    color: white;
+
+}
+
+.footer ul li{
+    list-style-type: none;
+   
+    transition: all 0.3s ease;
+    
+}
+
+.footer ul li:hover{
+    padding-left: 10px;
+    color: #c40303;
+    cursor:pointer;
+}
+
+.footerlast{
+    background-color: #41357e;
+    color: white;
+    font-size: 20px;
+    display:flex;
+    justify-content: space-around;
+    padding-right: 900px;
+
+}
+.footerlists li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footerlists li a:hover{
+  color: red;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+
+.map{
+  position: relative;
+  height: 190px;
+  width: 500px;
+}
+
