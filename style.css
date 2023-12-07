@@ -263,3 +263,122 @@
     height: 190px;
     width: 500px;
 }
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+    .background-image {
+        width: 100%;
+        height: auto; 
+    }
+
+    .navbar {
+        height: auto;
+        padding: 10px 0; 
+    }
+
+    .nav-list {
+        padding: 0;
+        text-align: center; 
+    }
+
+    .nav-list li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px; 
+    }
+
+
+    .carousel-item {
+        height: 50vh !important;
+
+    }
+
+
+
+
+
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 410px;
+        left: 0px;
+    }
+    .logo{
+        display: none;
+    }
+
+    .vm{
+        position: relative;
+        width: 400px;
+        height: 650px;
+        left: 10px;
+    }
+
+     .main-div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 400px;
+     }  
+     .subdiv1 ,.subdiv2{
+        position: relative;
+        width: 400px;
+     }
+
+     .col1,.col2{
+        /* position: relative; */
+        left: 10px;
+        width: 400px;
+     }
+
+     .col1{
+        position: relative;
+        left: -20px;
+     }
+
+
+    .box-container{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 400px;
+        left: 10px;
+    }
+
+    .box{
+        position: relative;
+        margin-bottom: 5px;
+    }
+ 
+
+    .footerlists {
+        position: relative;
+    }
+
+
+    .footerlists{
+        /* width: 3000px; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerlast{
+        position: relative;
+        display: none;
+        margin-left: 10px;
+    }
+
+    .map{
+        display: none;
+    }
+}
