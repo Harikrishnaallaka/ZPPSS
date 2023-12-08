@@ -360,24 +360,16 @@
     }
  
 
-    .footerlists {
-        position: relative;
-    }
 
-
-    .footerlists{
-        /* width: 3000px; */
-        position: relative;
+    .footer{
         display: flex;
-        flex-direction: column;
+        font-size: small;
     }
 
     .footerlast{
-        position: relative;
-        display: none;
-        margin-left: 10px;
+        display:none;
     }
-
+    
     .map{
         display: none;
     }
