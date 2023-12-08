@@ -157,3 +157,80 @@ h3{
   width: 500px;
 }
 
+
+
+@media all and (max-width: 768px) {
+
+  .background-image {
+      width: 100%;
+      height: auto; 
+  }
+
+  .navbar {
+    position: relative;
+      height: auto;
+      padding: 10px 0; 
+  }
+
+  .nav-list {
+    left: 0px;
+      padding: 0;
+      text-align: start;
+     
+     }
+
+  .nav-list li {
+      display: block;
+      margin: 0;
+      margin-bottom: 10px; 
+  }
+
+
+  /* .container{
+    margin-top: 0px;
+  } */
+
+  div h1{
+    position: relative;
+    padding-left: 130px;
+    color: #a52828;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footerlists {
+    position: relative;
+}
+
+
+.footerlists{
+    /* width: 3000px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlast{
+    position: relative;
+    display: none;
+    margin-left: 10px;
+}
+
+.map{
+    display: none;
+}
+}
