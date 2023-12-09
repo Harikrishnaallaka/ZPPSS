@@ -181,7 +181,135 @@ h3{
 
 
 
+@media only screen and (max-width: 600px) {
 
+
+
+  .background-image {
+    position: relative;
+    margin-left: 0px;
+      width: 340px;
+      height: auto; 
+  }
+
+  .navbar {
+    position: relative;
+      height: auto;
+      padding: 10px 0;
+      width: 340px; 
+  }
+
+  .nav-list {
+    left: 0px;
+      padding: 0;
+      text-align: start;
+     
+     }
+
+  .nav-list li {
+      display: block;
+      margin: 0;
+      margin-bottom: 10px; 
+  }
+
+
+
+
+  
+
+
+  .galleryy{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    margin-left: 10px;
+  }
+
+
+ h2 {
+  position: relative;
+  width: 340px;
+  padding-left: 70px;
+ }
+
+
+   ul{
+  width: 300px;
+  position: relative;
+  font-size: 15px;
+  padding-left: 0px;
+  margin-left: 0px;
+ }
+   .li{
+  font-size: 15px;
+ }
+
+ .anchortag{
+  color: red;
+  position: relative;
+  font-size: 30px;
+  width: 200px;
+  padding-left: 60px;
+ }
+ h5{
+  width: 300px;
+  position: relative;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-left: 0px;
+ }
+
+
+  .h33{
+    margin-left: 0px;
+    position: relative;
+    width: 300px;
+    /* left: 10px; */
+    padding-left: 10px;
+  }
+
+  h3{
+    width: 300px;
+    padding-left: 30px;
+  }
+
+   div p{
+    width: 300px;
+    position: relative;
+    font-size: 15px;
+
+  }
+
+
+
+
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  height:600px;
+}
+
+  .footerlists {
+    position: relative;
+    margin-right: 0px;
+  
+  
+}
+
+.footerlast{
+    position: relative;
+    display: none;
+    margin-left: 10px;
+}
+
+.map{
+    display: none;
+}
+}
 
 
 

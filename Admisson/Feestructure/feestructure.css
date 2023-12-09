@@ -186,3 +186,111 @@ li{
 
 
 
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .background-image {
+    position: relative;
+    margin-left: 0px;
+      width: 340px;
+      height: auto; 
+  }
+
+  .navbar {
+    position: relative;
+      height: auto;
+      padding: 10px 0;
+      width: 340px; 
+  }
+
+  .nav-list {
+    left: 0px;
+      padding: 0;
+      text-align: start;
+     
+     }
+
+  .nav-list li {
+      display: block;
+      margin: 0;
+      margin-bottom: 10px; 
+  }
+
+
+h1{
+  width: 340px;
+  font-size: 15px;
+  position: relative;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+h2{
+  font-size: 15px;
+  width: 300px;
+  position: relative;
+  padding-left: 0px;
+  margin-left: 0px;
+
+}
+
+h3{
+  font-size: 15px;
+  position: relative;
+  margin-left: 0px;
+}
+h3{
+  position: relative;
+
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.container{
+  width: 300px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+  table {
+    width: 320px;
+    left: 0px;
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  
+
+
+
+
+  
+
+
+
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  height:600px;
+}
+
+  .footerlists {
+    position: relative;
+    margin-right: 0px;
+  
+  
+}
+
+.footerlast{
+    position: relative;
+    display: none;
+    margin-left: 10px;
+}
+
+.map{
+    display: none;
+}
+}
