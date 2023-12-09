@@ -362,10 +362,17 @@
 
 
     .footer{
+        position: relative;
         display: flex;
-        font-size: small;
+        flex-direction: column;
+        /* font-size: small; */
     }
 
+    .footerlists{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
     .footerlast{
         display:none;
     }
