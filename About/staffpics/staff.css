@@ -227,17 +227,16 @@ position: relative;
 
 
 .footer{
-  width: 375px;
+  display: flex;
+  flex-wrap: wrap;
+  height:500px;
 }
 
   .footerlists {
-    display: none;
     position: relative;
+    margin-right: 0px;
   
 }
-
-
-
 
 .footerlast{
     position: relative;
