@@ -167,3 +167,103 @@
   height: 190px;
   width: 500px;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .background-image {
+    position: relative;
+    margin-left: 0px;
+      width: 340px;
+      height: auto; 
+  }
+
+  .navbar {
+    position: relative;
+      height: auto;
+      padding: 10px 0;
+      width: 340px; 
+  }
+
+  .nav-list {
+    left: 0px;
+      padding: 0;
+      text-align: start;
+     
+     }
+
+  .nav-list li {
+      display: block;
+      margin: 0;
+      margin-bottom: 10px; 
+  }
+
+
+h2 {
+  font-size: 20px;
+  width: 300px;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+h3{
+  padding-left: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+
+.table{
+  position: relative;
+  padding-left: 10px;
+  margin-left: -270px;
+  width: 340px;
+}
+
+  .h22{
+    position: relative;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 0px;
+    left: 10px;
+
+  }
+
+
+
+
+  
+
+
+
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  height:600px;
+}
+
+  .footerlists {
+    position: relative;
+    margin-right: 0px;
+  
+  
+}
+
+.footerlast{
+    position: relative;
+    display: none;
+    margin-left: 10px;
+}
+
+.map{
+    display: none;
+}
+}
