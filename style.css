@@ -298,13 +298,30 @@
       }
 
 
-    .carousel-item {
-        height: 50vh !important;
+    .carousel-item  {
+        height:220px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+  
 
+
+
+
+    .col{
+        position: relative;
+        width: 330px;
+        margin-bottom: 20px;
+        margin-left: -15px;
+        margin-top: 0px;
     }
 
 
-
+    .cardh-100{
+        position: relative;
+         height: 428px;
+        width: 320px;
+    }
 
 
     
@@ -312,7 +329,9 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 410px;
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 320px;
         left: 0px;
     }
     .logo{
@@ -321,8 +340,8 @@
 
     .vm{
         position: relative;
-        width: 400px;
-        height: 650px;
+        width: 320px;
+        height: 600px;
         left: 10px;
     }
 
@@ -331,17 +350,30 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 400px;
+        max-width: 330px;
+        margin-left: 0px;
+        padding-left: 10px;
      }  
      .subdiv1 ,.subdiv2{
         position: relative;
-        width: 400px;
+        width: 330px;
+        
+     }
+     .ps{
+        position: relative;
+        font-size: 25px;
+        padding: 10px;
      }
 
+     p{
+        font-size: 15px;
+     }
      .col1,.col2{
         /* position: relative; */
-        left: 10px;
-        width: 400px;
+        padding-left: 20px;
+        margin-left: 10px;
+        left: 20px;
+        width: 300px;
      }
 
      .col1{
@@ -356,7 +388,7 @@
         align-items: center;
         flex-direction: column;
         position: relative;
-        width: 400px;
+        width: 320px;
         left: 10px;
     }
 
