@@ -11,7 +11,7 @@
 }
 .navbar {
     background-color: rgba(6, 18, 60, 0.952);
-    color: #b71190;
+    color:#5ed09b;
     padding-top: 5px 0;
     height: 50px;
     
@@ -198,7 +198,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 340px;
+      width: 600px;
       height: auto; 
   }
 
@@ -206,7 +206,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 600px; 
   }
 
   .nav-list {
@@ -226,9 +226,9 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
   h2{
     position: relative;
-    width: 340px;
+    width: 600px;
     padding-left: 0px;
-    padding-left: 75px;
+    padding-left: 200px;
   }
 
   h3{
@@ -237,24 +237,24 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   p{
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
-    width: 320px;
+    width: 600px;
     padding-left: -50px;
     margin-left:-20px;
     margin-bottom: 0px;
   }
 .main{
-  width: 340px;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 110px 0px;
+  width: 550px;
+  /* padding: 0px 0px 0px 0px; */
+  margin: 0px 0px 10px 0px;
 }
   .main h1{
     position: relative;
     padding: 0px;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 0px;
-    width: 300px;
+    width: 550px;
   }
 hr{
   display: none;
@@ -268,14 +268,14 @@ hr{
 
 .mainn{
   padding-left: 0px;
-  width: 340px;
-  margin-top: 100px;
-  margin-bottom: 500px;
+  width: 600px;
+  /* margin-top: -500px; */
+  margin-bottom: 450px;
 }
 
 
 h1{
-  width: 330px;
+  width: 600px;
   position: relative;
   font-size: 10px;
   padding-right: 0px;
@@ -287,7 +287,8 @@ h1{
 position: relative;
 margin-left: -30px;
 padding-left: 0px;
-width: 310px;
+width: 550px;
+
 }
 
  .mainn{
@@ -299,12 +300,13 @@ width: 310px;
 
 
 
-
   .footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-around;
+    left: 0px;
     height:600px;
+    width: 600px;
   }
   
     .footerlists {
