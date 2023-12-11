@@ -9,7 +9,7 @@
 }
 .navbar {
     background-color: rgba(6, 18, 60, 0.952);
-    color: #b71190;
+    color: #5ed09b;
     padding-top: 5px 0;
     height: 50px;
   }
@@ -133,7 +133,7 @@
 }
 .vm{
     border: 2px solid rgb(8, 6, 6);
-    background-color: #c63939a7;
+    background-color: #d3c9a580;
     color:black;
     border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -341,7 +341,7 @@
     .vm{
         position: relative;
         width: 320px;
-        height: 600px;
+        height: 630px;
         left: 10px;
     }
 
