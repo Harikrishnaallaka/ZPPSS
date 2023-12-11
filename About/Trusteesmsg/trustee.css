@@ -228,26 +228,33 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     width: 340px;
     padding-left: 0px;
-    padding-left: 70px;
+    padding-left: 75px;
   }
 
   h3{
     position: relative;
     width: 180px;
   }
+
+  p{
+    font-size: 15px;
+    position: relative;
+    width: 320px;
+    padding-left: -50px;
+    margin-left:-20px;
+    margin-bottom: 0px;
+  }
 .main{
   width: 340px;
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 110px 0px;
 }
-  .main h1,p{
+  .main h1{
     position: relative;
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
     width: 300px;
- 
-
   }
 hr{
   display: none;
@@ -262,18 +269,32 @@ hr{
 .mainn{
   padding-left: 0px;
   width: 340px;
-  margin-top: 300px;
-  margin-bottom: 1010px;
+  margin-top: 100px;
+  margin-bottom: 500px;
 }
 
 
 h1{
+  width: 330px;
   position: relative;
   font-size: 10px;
-  padding-left: 0px;
-  margin-left: 0px;
+  padding-right: 0px;
+  margin-left: -40px;
 }
 
+
+.mainn p{
+position: relative;
+margin-left: -30px;
+padding-left: 0px;
+width: 310px;
+}
+
+ .mainn{
+  width: 30px;
+  margin-top: 70px;
+  padding: 0px 0px 0px 0px;
+}
 
 
 
