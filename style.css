@@ -271,25 +271,31 @@
 @media only screen and  (max-width:600px) {
 
     .background-image {
-        width: 100%;
-        height: auto; 
-    }
-
-    .navbar {
-        height: auto;
-        padding: 10px 0; 
-    }
-
-    .nav-list {
-        padding: 0;
-        text-align: center; 
-    }
-
-    .nav-list li {
-        display: block;
-        margin: 0;
-        margin-bottom: 10px; 
-    }
+        position: relative;
+        margin-left:0px;
+          width: 340px;
+          height: auto; 
+      }
+    
+      .navbar {
+        position: relative;
+          height: auto;
+          padding: 10px 0;
+          width: 340px; 
+      }
+    
+      .nav-list {
+        left: 0px;
+          padding: 0;
+          text-align: start;
+         
+         }
+    
+      .nav-list li {
+          display: block;
+          margin: 0;
+          margin-bottom: 10px; 
+      }
 
 
     .carousel-item {
@@ -362,22 +368,26 @@
 
 
     .footer{
-        position: relative;
         display: flex;
-        flex-direction: column;
-        /* font-size: small; */
-    }
-
-    .footerlists{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-    .footerlast{
-        display:none;
-    }
-    
-    .map{
-        display: none;
-    }
+        flex-wrap: wrap;
+        justify-content: start;
+        height:600px;
+      }
+      
+        .footerlists {
+          position: relative;
+          margin-right: 0px;
+        
+        
+      }
+      
+      .footerlast{
+          position: relative;
+          display: none;
+          margin-left: 10px;
+      }
+      
+      .map{
+          display: none;
+      }
 }
