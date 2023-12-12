@@ -188,7 +188,7 @@ h3{
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 340px;
+      width: 425px;
       height: auto; 
   }
 
@@ -196,7 +196,7 @@ h3{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -219,7 +219,7 @@ h3{
 
 
   .galleryy{
-    width: 200px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     left: 0px;
@@ -235,7 +235,7 @@ h3{
 
 
    ul{
-  width: 300px;
+  width: 400px;
   position: relative;
   font-size: 15px;
   padding-left: 0px;
@@ -249,7 +249,7 @@ h3{
   color: red;
   position: relative;
   font-size: 30px;
-  width: 200px;
+  width: 300px;
   padding-left: 60px;
  }
  h5{
@@ -275,7 +275,7 @@ h3{
   }
 
    div p{
-    width: 300px;
+    width: 400px;
     position: relative;
     font-size: 15px;
 
@@ -291,6 +291,7 @@ h3{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
+  width: 425px;
 }
 
   .footerlists {

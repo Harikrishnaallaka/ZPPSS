@@ -174,7 +174,7 @@ h1{
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 340px;
+      width: 425px;
       height: auto; 
   }
 
@@ -182,7 +182,7 @@ h1{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -204,7 +204,7 @@ h1{
   .mimg{
 
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 200px;
     padding-left: 0px;
   }
@@ -212,13 +212,13 @@ h1{
 .p{
   position: relative;
   font-size: 15px;
-  width: 300px;
+  width: 400px;
 
 }
 
 .vimg{
   position: relative;
-    width: 300px;
+    width: 400px;
     height: 200px;
     padding-left: 0px;
 
@@ -227,7 +227,7 @@ h1{
 .p1{
   position: relative;
   font-size: 15px;
-  width: 300px;
+  width: 400px;
 
 }
 
@@ -246,6 +246,7 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  width: 425px;
   height:600px;
 }
 

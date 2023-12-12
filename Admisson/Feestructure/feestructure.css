@@ -194,7 +194,7 @@ li{
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 340px;
+      width: 425px;
       height: auto; 
   }
 
@@ -202,7 +202,7 @@ li{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -220,10 +220,10 @@ li{
 
 
 h1{
-  width: 330px;
+  width: 400px;
   font-size: 15px;
   position: relative;
-  padding-left: 0px;
+  padding-left: 30px;
   margin-left: 0px;
 }
 h2{
@@ -248,12 +248,12 @@ h3{
 }
 
 .container{
-  width: 300px;
-  padding-left: 0px;
+  width: 400px;
+  padding-left: 30px;
   margin-left: 0px;
 }
   table {
-    width: 320px;
+    width: 400px;
     left: 0px;
     position: relative;
     padding-left: 0px;
@@ -275,6 +275,7 @@ h3{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
+  width: 425px;
 }
 
   .footerlists {

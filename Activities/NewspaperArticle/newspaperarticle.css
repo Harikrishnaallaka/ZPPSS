@@ -179,7 +179,7 @@ h3{
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 340px;
+      width: 425px;
       height: auto; 
   }
 
@@ -187,7 +187,7 @@ h3{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -205,6 +205,7 @@ h3{
 
 .imgs{
   width: 340px;
+  padding-left: 60px;
 }
 
 h2{
@@ -216,7 +217,7 @@ h2{
 }
 
 h3{
-  width: 200px;
+  width: 400px;
   position: relative;
   padding: 0px;
   padding-top: 10px;
@@ -256,6 +257,7 @@ h3{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
+  width: 425px;
 }
 
   .footerlists {

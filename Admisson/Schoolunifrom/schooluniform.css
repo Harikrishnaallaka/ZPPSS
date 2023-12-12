@@ -167,7 +167,7 @@ p{
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 340px;
+      width: 425px;
       height: auto; 
   }
 
@@ -175,7 +175,7 @@ p{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -194,15 +194,15 @@ p{
 
 h2{
   font-size: 15px;
-  width: 300px;
+  width: 400px;
   position: relative;
-  padding-left: 50px;
+  padding-left: 90px;
   margin-left: 20px;
 }
 
 h4{
   font-size: 15px;
-  padding-left: 10px;
+  padding-left: 50px;
   margin-left: 0px;
 }
 
@@ -236,6 +236,7 @@ p{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
+  width: 425px;
 }
 
   .footerlists {

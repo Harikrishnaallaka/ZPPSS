@@ -11,7 +11,7 @@
 }
 .navbar {
     background-color: rgba(6, 18, 60, 0.952);
-    color: #b71190;
+    color: #5ed09b;
     padding-top: 5px 0;
     height: 50px;
     
@@ -180,7 +180,7 @@ h3{
   .background-image {
     position: relative;
     margin-left:0px;
-      width: 340px;
+      width: 425px;
       height: auto; 
   }
 
@@ -188,7 +188,7 @@ h3{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 340px; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -207,7 +207,7 @@ h3{
 
 div h2 {
   font-size: 20px;
-  width: 340px;
+  width: 425px;
   position: relative;
   /* padding-left: 0px; */
   margin-left: 0px;
@@ -226,7 +226,7 @@ div p{
   font-size: 20px;
   width: 320px;
   position: relative;
-  padding-left: -12px;
+  padding-left: -25px;
   padding-right: -20px;
   left: 10px;
   margin-left: -1px;
@@ -263,6 +263,7 @@ div p{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
+  width: 425px;
 }
 
   .footerlists {

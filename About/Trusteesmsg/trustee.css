@@ -197,7 +197,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 37rem;
+      width: 425px;
       height: auto; 
   }
 
@@ -205,7 +205,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 37rem; 
+      width: 425px; 
   }
 
   .nav-list {
@@ -225,9 +225,9 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
   h2{
     position: relative;
-    width: 600px;
+    width: 425px;
     padding-left: 0px;
-    padding-left: 150px;
+    padding-left: 100px;
   }
 
   h3{
@@ -238,8 +238,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   p{
     font-size: 20px;
     position: relative;
-    width: 440px;
-    /* padding-left: -50px; */
+    width: 400px;
+    padding-left: -50px;
     margin-left:-30px;
     /* margin-bottom: 0px; */
 
@@ -267,8 +267,8 @@ hr{
 
 
 .mainn{
-  padding-left: 0px;
-  width: 600px;
+  padding-left: -90px;
+  width: 425px;
   /* margin-top: -500px; */
   margin-bottom: 450px;
 }
@@ -287,7 +287,9 @@ h1{
 position: relative;
 margin-left: -30px;
 padding-left: 0px;
-width: 450px;
+width: 400px;
+margin-bottom: 800px;
+
 
 }
 
@@ -306,7 +308,7 @@ width: 450px;
     justify-content: space-around;
     left: 0px;
     height:600px;
-    width: 37rem;
+    width: 425px;
   }
   
     .footerlists {
