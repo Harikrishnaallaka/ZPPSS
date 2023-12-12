@@ -276,6 +276,10 @@
           width: 425px;
           height: auto; 
       }
+
+      #carouselExampleAutoplaying{
+        width: 425px;
+      }
     
       .navbar {
         position: relative;
