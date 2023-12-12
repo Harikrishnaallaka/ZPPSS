@@ -191,13 +191,13 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 
-@media  screen and (max-width: 600px)and (min-width: 300px) {
+@media  screen and (max-width: 600px) {
 
 
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 400px;
+      width: 600px;
       height: auto; 
   }
 
@@ -205,7 +205,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 470px; 
+      width: 600px; 
   }
 
   .nav-list {
@@ -225,7 +225,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
   h2{
     position: relative;
-    width: 470px;
+    width: 600px;
     padding-left: 0px;
     padding-left: 150px;
   }
@@ -306,7 +306,7 @@ width: 450px;
     justify-content: space-around;
     left: 0px;
     height:600px;
-    width: 470px;
+    width: 600px;
   }
   
     .footerlists {
