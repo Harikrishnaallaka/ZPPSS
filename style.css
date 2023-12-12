@@ -273,7 +273,7 @@
     .background-image {
         position: relative;
         margin-left:0px;
-          width: 340px;
+          width: 425px;
           height: auto; 
       }
     
@@ -281,7 +281,7 @@
         position: relative;
           height: auto;
           padding: 10px 0;
-          width: 340px; 
+          width: 425px; 
       }
     
       .nav-list {
@@ -310,17 +310,17 @@
 
     .col{
         position: relative;
-        width: 330px;
+        width: 425px;
         margin-bottom: 20px;
-        margin-left: -15px;
+        margin-left: 15px;
         margin-top: 0px;
     }
 
 
     .cardh-100{
         position: relative;
-         height: 428px;
-        width: 320px;
+         height: 460px;
+         width: 425px;
     }
 
 
@@ -331,7 +331,7 @@
         flex-direction: column;
         padding-left: 0px;
         margin-left: 0px;
-        width: 320px;
+        width: 360px;
         left: 0px;
     }
     .logo{
@@ -340,7 +340,7 @@
 
     .vm{
         position: relative;
-        width: 320px;
+        width: 400px;
         height: 630px;
         left: 10px;
     }
@@ -350,13 +350,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 330px;
+        max-width: 400px;
         margin-left: 0px;
-        padding-left: 10px;
+        padding-right: 10px;
      }  
      .subdiv1 ,.subdiv2{
         position: relative;
-        width: 330px;
+        width: 400px;
         
      }
      .ps{
@@ -372,13 +372,15 @@
         /* position: relative; */
         padding-left: 20px;
         margin-left: 10px;
-        left: 20px;
-        width: 300px;
+        /* left: 20px; */
+        width: 380px;
      }
 
      .col1{
         position: relative;
-        left: -20px;
+        width: 380px;
+        padding-left: 0px;
+        margin-left: 0px;
      }
 
 
@@ -388,7 +390,7 @@
         align-items: center;
         flex-direction: column;
         position: relative;
-        width: 320px;
+        width: 400px;
         left: 10px;
     }
 
