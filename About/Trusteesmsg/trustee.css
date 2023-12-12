@@ -197,7 +197,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 600px;
+      width: 37rem;
       height: auto; 
   }
 
@@ -205,7 +205,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 600px; 
+      width: 37rem; 
   }
 
   .nav-list {
@@ -306,7 +306,7 @@ width: 450px;
     justify-content: space-around;
     left: 0px;
     height:600px;
-    width: 600px;
+    width: 37rem;
   }
   
     .footerlists {
