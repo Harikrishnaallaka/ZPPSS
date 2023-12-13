@@ -218,8 +218,9 @@ div h3{
   flex-direction:column;
   position: relative;
   justify-content: none;
-  /* padding-left: -100px; */
+  padding-left: 40px;
   margin-left: -90px;
+  width: 350px;
 
 }
 
