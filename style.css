@@ -430,3 +430,75 @@
           display: none;
       }
 }
+
+
+@media only screen and (max-width: 1366px) {
+
+    .background-image{
+        width: 1360px;
+    }
+
+
+    .navbar{
+        width: 1360px;
+    }
+    .nav-list{
+        padding-left: 100px;
+    }
+.row{
+    left: 0px;
+}
+
+.vm{
+    height: 350px;
+    width: 1366px;
+}
+.box-container{
+    width: 1366px;
+}
+
+.subdiv2{
+    width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.subdiv1{
+    width: 600px;
+}
+
+
+.main-div{
+    width: 1300px;
+    position: relative;
+    margin-right: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px 0px;
+}
+
+.subdiv2{
+    position: relative;
+    margin-right: 0px;
+    right: 0px;
+    left: -50px;
+}
+
+.col1,.col2{
+    width: 570px;
+    margin-left: 30px;
+}
+
+/* .map{
+    display: block;
+} */
+}
+
+
+
+
+
+
+  
+
+
+
