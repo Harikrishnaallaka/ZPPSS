@@ -5,30 +5,40 @@
 }
 .background-image{
    left: 0px;
-    height: 140px;
-    width: 1460px;
+    height: 150px;
+    position:relative;
+    width: 100%;
     margin-top: 0px;
 }
 .navbar {
     background-color: rgba(6, 18, 60, 0.952);
-    color: #b71190;
+    /* color: #b71190; */
     padding-top: 5px 0;
     height: 50px;
+    width:100%;
     
   }
   
   .nav-list {
     position: relative;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    left: 90px;
+    padding-left: 130px;
+    width: 100% ;
   }
   
-  .nav-list li {
-    display: inline-block;
+  .nav-list ul  li {
+    list style-type:none;
+    position:relative;
+    display: flex;
+    flex-direction: row;
     margin-right: 90px;
+    width:100%;
     
   }
   
@@ -37,6 +47,7 @@
     text-decoration: none;
     padding: 8px 12px;
     display: block;
+    width:100%;
   }
   
   .nav-list li a:hover {
@@ -76,6 +87,7 @@
   .container{
     background-color: rgba(0, 199, 129, 0.057);
     margin-top: 30px;
+    max-width: 740px;
   }
 
 .container div p{
@@ -94,7 +106,7 @@
 h1{
     color: #42737e;
     position: relative;
-    padding-left: 510px;
+    align-items:centre;
 }
 
 h3{
@@ -106,17 +118,19 @@ h3{
   .footer{
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 400px;
     /* border: 2px solid rgb(0, 32, 174); */
     padding: 20px;
+    margin:5px;
     background-color: #41357e;
     color: white;
+    width:100%;
 
 }
 
 .footer ul li{
+  padding:4px;
     list-style-type: none;
-   
     transition: all 0.3s ease;
     
 }
@@ -127,15 +141,17 @@ h3{
     cursor:pointer;
 }
 
-.footerlast{
+/* .footerlast{
     background-color: #41357e;
+    position:relative;
     color: white;
     font-size: 20px;
     display:flex;
     justify-content: space-around;
     padding-right: 900px;
+    width:100%;
+} */
 
-}
 .footerlists li a{
   text-decoration: none;
   color: white;
@@ -161,19 +177,24 @@ h3{
 
 @media only screen and (max-width: 600px) {
 
+
   .background-image {
-      width: 425px;
-      height: auto;
+    position:relative;
+      width: 100%;
+      height: 150px;
   }
 
   .navbar {
-    width: 425px;
+    width: 100%;
     position: relative;
       height: auto;
       padding: 10px 0; 
   }
 
   .nav-list {
+    position: relative;
+    display:flex;
+    flex-direction: column;
     left: 0px;
       padding: 0;
       text-align: start;
@@ -194,13 +215,13 @@ h3{
   }
 
   div p{
-    width: 400px;
+    width: 100%;
     font-size: 15px;
   }
   div li{
     position: relative;
     font-size: 15px;
-    width: 300px;
+    width: 100%;
     padding-left: 0px;
     margin-left: 0px;
   }
@@ -213,6 +234,7 @@ h3{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
+  width:100%;
 }
 
   .footerlists {
@@ -220,11 +242,11 @@ h3{
     margin-right: 0px;
 }
 
- div ul {
+ /* div ul {
   width: 320px;
   padding-left: 10px;
   margin-left: 0px;
-}
+} */
 
 .footerlast{
     position: relative;

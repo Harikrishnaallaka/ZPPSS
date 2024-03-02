@@ -5,8 +5,9 @@
 }
 .background-image{
    left: 0px;
+   position:relative;
     height: 140px;
-    width: 1460px;
+    width: 100%;
     margin-top: 0px;
 }
 .navbar {
@@ -14,21 +15,36 @@
     color: #b71190;
     padding-top: 5px 0;
     height: 50px;
+    width:100%;
     
   }
   
   .nav-list {
     position: relative;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    left: 90px;
+    width: 100% ;
+   
   }
   
-  .nav-list li {
-    display: inline-block;
+  .nav-list ul li {
+    list style-type:none;
+    position:relative;
+    display: flex;
+    flex-direction: row;
     margin-right: 90px;
+    width:100%;
+  }
+
+  .container h2{
+    display:flex;
+    justify-content:center; 
+    text-align: center;
   }
 
 
@@ -73,13 +89,30 @@
     transform-style: preserve-3d;
   }
   
+.container{
+  width:100%;
+}
+.container h2 {
+  display:flex;
+  justify-content:center;
+  width:100%;
+}
 
-
-
+.container h3{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  padding-left:0px;
+}
+.container p{
+  position:relative;
+  width:100%;
+  left:0px;
+}
 
   h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 550px;
+    /* padding-left: 550px; */
     position: relative;
     font-size: 40px;
     padding-top: 20px;
@@ -99,7 +132,7 @@ h3{
 p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
-    padding-left: 70px;
+    padding-left: 20px;
     padding-top: 20px;
     font-size: 20px;
 }
@@ -112,15 +145,13 @@ h5{
     padding-left: 20px;
     padding-top: 20px;
     font-size: 30px;
-
-
 }
 
 
   .footer{
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 400px;
     padding: 20px;
     background-color: #41357e;
     color: white;
@@ -128,7 +159,8 @@ h5{
 
 .footer ul li{
     list-style-type: none;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
+    padding:4px; 
 }
 
 .footer ul li:hover{
@@ -137,15 +169,15 @@ h5{
     cursor:pointer;
 }
 
-.footerlast{
+/* .footerlast{
     background-color: #41357e;
     color: white;
     font-size: 20px;
     display:flex;
     justify-content: space-around;
     padding-right: 900px;
+} */
 
-}
 .footerlists li a{
   text-decoration: none;
   color: white;
@@ -176,7 +208,7 @@ h5{
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 425px;
+      width: 100%;
       height: auto; 
   }
 
@@ -184,10 +216,13 @@ h5{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 425px; 
+      width: 100%; 
   }
 
   .nav-list {
+    position: relative;
+    display:flex;
+    flex-direction: column;
     left: 0px;
       padding: 0;
       text-align: start;
@@ -199,11 +234,6 @@ h5{
       margin: 0;
       margin-bottom: 10px; 
   }
-
-
-
-
-
 
 h2{
   position: relative;
@@ -244,7 +274,7 @@ h5{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
-  width: 425px;
+  width: 100%;
 }
 
   .footerlists {

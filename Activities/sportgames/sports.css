@@ -4,9 +4,10 @@
     margin: 0px;
 }
 .background-image{
+  position:relative;
    left: 0px;
     height: 140px;
-    width: 1460px;
+    width: 100%;
     margin-top: 0px;
 }
 .navbar {
@@ -14,20 +15,28 @@
     color: #b71190;
     padding-top: 5px 0;
     height: 50px;
+    width:100%;
   }
   
   .nav-list {
     position: relative;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    left: 90px;
+    width: 100% ;
   }
   
-  .nav-list li {
-    display: inline-block;
+  .nav-list ul li {
+    list style-type:none;
+    position:relative;
+    display: flex;
+    flex-direction: row;
     margin-right: 90px;
+    width:100%;
   }
 
 
@@ -76,7 +85,10 @@
 
   h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 600px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     padding-top: 35px;
     font-size: large;
     background-color: rgba(195, 145, 236, 0.262);
@@ -136,7 +148,7 @@
   .footer{
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 400px;
     padding: 20px;
     background-color: #41357e;
     color: white;
@@ -145,6 +157,7 @@
 .footer ul li{
     list-style-type: none;
     transition: all 0.3s ease; 
+    padding:4px;
 }
 
 .footer ul li:hover{
@@ -178,8 +191,8 @@
 
 .map{
   position: relative;
-  height: 190px;
-  width: 500px;
+  height: 150px;
+  width: 300px;
 }
 
 
@@ -191,7 +204,7 @@
   .background-image {
     position: relative;
     margin-left: 0px;
-      width: 425px;
+      width: 100%;
       height: auto; 
   }
 
@@ -199,10 +212,13 @@
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 425px; 
+      width: 100%; 
   }
 
   .nav-list {
+    position: relative;
+    display:flex;
+    flex-direction: column;
     left: 0px;
       padding: 0;
       text-align: start;
@@ -233,13 +249,12 @@
 
  h2{
   position: relative;
-  width: 425px;
-  padding-left: 120px;
+  width: 100%;
   
  }
 
  p{
-  width: 400px;
+  width: 100%;
   position: relative;
   font-size: 15px;
   padding-left: 10px;
@@ -247,7 +262,7 @@
 
  }
  h5{
-  width: 300px;
+  width: 100%;
   position: relative;
   font-size: 15px;
   padding-left: 10px;
@@ -258,7 +273,7 @@
   .h33{
     margin-left: 0px;
     position: relative;
-    width: 400px;
+    width: 100%;
     /* left: 10px; */
     padding-left: 30px;
   }
@@ -266,7 +281,7 @@
 
   .galleryy img{
     position: relative;
-    width: 330px;
+    width: 100%;
     /* height:200px */
   }
 
@@ -279,7 +294,7 @@
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
-  width: 425px;
+  width: 100%;
 }
 
   .footerlists {
@@ -289,11 +304,11 @@
   
 }
 
-.footerlast{
+/* .footerlast{
     position: relative;
     display: none;
     margin-left: 10px;
-}
+} */
 
 .map{
     display: none;

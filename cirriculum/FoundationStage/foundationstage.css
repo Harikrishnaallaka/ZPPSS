@@ -5,8 +5,9 @@
 }
 .background-image{
    left: 0px;
+   position:relative;
     height: 140px;
-    width: 1460px;
+    width: 100%;
     margin-top: 0px;
 }
 .navbar {
@@ -14,21 +15,29 @@
     color:#5ed09b;
     padding-top: 5px 0;
     height: 50px;
+    width:100%;
     
   }
   
   .nav-list {
     position: relative;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    left: 90px;
+    width: 100% ;
   }
   
-  .nav-list li {
-    display: inline-block;
+  .nav-list ul li {
+    list style-type:none;
+    position:relative;
+    display: flex;
+    flex-direction: row;
     margin-right: 90px;
+    width:100%;
     
   }
   
@@ -37,6 +46,7 @@
     text-decoration: none;
     padding: 8px 12px;
     display: block;
+    width:100%;
   }
   
   .nav-list li a:hover {
@@ -87,14 +97,16 @@ h2{
 }
 
 .card{
-    height: 500px;
-    width: 600px;
-    left: 30px;
+  position:relative;
+    height: 400px;
+    width: 100%;
+    
     margin-bottom: 30px;
 }
 .card-body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #0d5fa33d;
+    
 }
 
 p{
@@ -118,7 +130,7 @@ h3{
   .footer{
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 400px;
     padding: 20px;
     background-color: #41357e;
     color: white;
@@ -128,6 +140,7 @@ h3{
 .footer ul li{
     list-style-type: none;
     transition: all 0.3s ease;
+    padding:4px;
     
 }
 
@@ -164,8 +177,8 @@ h3{
 
 .map{
   position: relative;
-  height: 190px;
-  width: 500px;
+  height: 150px;
+  width: 300px;
 }
 
 
@@ -178,7 +191,7 @@ h3{
   .background-image {
     position: relative;
     margin-left:0px;
-      width: 425px;
+      width: 100%;
       height: auto; 
   }
 
@@ -186,10 +199,13 @@ h3{
     position: relative;
       height: auto;
       padding: 10px 0;
-      width: 425px; 
+      width: 100%; 
   }
 
   .nav-list {
+    position: relative;
+    display:flex;
+    flex-direction: column;
     left: 0px;
       padding: 0;
       text-align: start;
@@ -205,40 +221,34 @@ h3{
 
 div h2 {
   font-size: 20px;
-  width: 425px;
+  width: 100%;
   position: relative;
   padding-left: 40px;
 }
 
 div p{
   font-size: 15px;
-  width: 300px;
+  width:100%;
   position: relative;
-  padding-left: 15px;
-  margin-left: 10px;
+  /* padding-left: 15px; */
+  /* margin-left: 10px; */
   margin-right: 0px;
 }
 
 .card{
   font-size: 20px;
-  width: 330px;
+  width: 90%;
   position: relative;
-  padding-left: 0px;
+  /* padding-left: 0px; */
   left: 10px;
   /* margin-left: px; */
 }
 
-
-
-
-
-
-
-
-
-  
-
-
+.col{
+  position:relative;
+  padding:0px;
+  margin:0px;
+}
 
 
 
@@ -247,21 +257,18 @@ div p{
   flex-wrap: wrap;
   justify-content: start;
   height:600px;
-  width: 425px;
+  width: 100%;
 }
 
   .footerlists {
     position: relative;
     margin-right: 0px;
+    padding:4px;
   
   
 }
 
-.footerlast{
-    position: relative;
-    display: none;
-    margin-left: 10px;
-}
+
 
 .map{
     display: none;
